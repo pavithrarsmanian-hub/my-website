@@ -1,0 +1,143 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gram Panchayat Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+            color: black;
+        }
+
+        header {
+            background-color: navy;
+            color: whitesmoke;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: whitesmoke;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            border: 1px solid whitesmoke;
+        }
+
+        h2 {
+            color: darkblue;
+            border-bottom: 2px solid darkblue;
+            padding-bottom: 5px;
+        }
+
+
+        input, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: darkblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: whitesmoke;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navigation Header -->
+    <header>
+        <h1>Green Valley Gram Panchayat</h1>
+        <nav>
+            <a href="index.html">Home / Website</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- About Section -->
+        <div class="card">
+            <h2>About Our Village</h2>
+            <p>Welcome to the Green Valley Gram Panchayat official portal. This website provides general information about our village basic services and contact details.</p>
+            <ul>
+                <li><b>Village Name:</b> Green Valley</li>
+                <li><b>President Name:</b> Rajesh Kumar</li>
+                <li><b>Total Population:</b> 3,500</li>
+                <li><b>Office Hours:</b> 9:00 AM - 5:00 PM (Monday to Saturday)</li>
+            </ul>
+        </div>
+
+        <!-- Services Section -->
+        <div class="card">
+            <h2>Village Services</h2>
+            <ul>
+                <li><b>Drinking Water Supply:</b> Regular supply timings and repair reporting.</li>
+                <li><b>Street Lights:</b> Maintenance of street lighting in ward areas.</li>
+                <li><b>Sanitation:</b> Garbage collection schedule and clean village drive.</li>
+                <li><b>Village Library:</b> Free access to books and daily newspapers.</li>
+            </ul>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="card">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter phone number" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" placeholder="Write your message here..."></textarea>
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; Gram Panchayat Mini Project | Website Page</p>
+        <p> Contact: GreenValleyVillage@007.com</p>
+        <p> Created by: PAVITHRA S | First Year CSE-AI</p>
+        
+    </footer>
+
+</body>
+</html>
